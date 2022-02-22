@@ -33,3 +33,7 @@ the score tablen the difference between the 1st and 2nd best advisories is relat
 when it predicts the wrong advisory while still learning an accurate representation of the table.
 Instead of origami method, NN takes directly the measured states as inputs. No need to discretize the values. Moreover, the NN often gives better results/advisories
 then the original table and produces alerts earlier when used in a simulation. The ability to use continous inputs may explain these results.
+
+## For our project ?
+
+> Gives useful informations on "why we use NN for ACAS ?" which could be used to explained the subject/project for a presentation for example.
