@@ -1,0 +1,10 @@
+ACAS = Airborne Collision Avoidance System
+UAS = Unmanned Aircraft System
+NAS = National Airspace System
+
+NMAC = Near Mid-Air Collision (when an aircraft enters the collision volume of another)
+MAC = Mid-Air Collision (when there is a real collision between two aircrafts)
+CPA = Closest Point of Approach (point in space where the distance between aircrafts is minimum when considering constant velocity vector = straight motion)
+ADS-B = Automatic Dependant Surveillance-Broadcast (cooperative positioning system for aircraft using GPS)
+
+SMT = Satisfiability Modulo Theories
