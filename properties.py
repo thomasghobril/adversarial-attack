@@ -25,8 +25,7 @@ def IP1(x):
     
 def OP1(x, coc_mean=7.5188840201005975, coc_range=373.94992):
     """ Check if outputs of property 1 are satisfied. """
-    coc = (x[0] - coc_mean)/coc_range
-    return(coc <= 1500)
+    return(x <= (1500 - coc_mean)/coc_range)
 
 
 # PROPERTY 2
