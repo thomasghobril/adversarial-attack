@@ -16,6 +16,9 @@ X_dom = np.array([ [0.0,    -pi, -pi, 100.0,     0.0],
 
 # PROPERTY 1
 
+IP1_dom = [np.array( [ [55947.691, None, None, 1145, None],
+                       [None     , None, None, None, 60] ])]
+
 def IP1(x):
     """ Check if inputs of property 1 are satisfied. """
     return( (x[0] >= 55947.691) and (x[3] >= 1145) and (x[4] <= 60) )
@@ -28,6 +31,9 @@ def OP1(x, coc_mean=7.5188840201005975, coc_range=373.94992):
 
 # PROPERTY 2
 
+IP2_dom = [np.array( [ [55947.691, None, None, 1145, None],
+                       [None     , None, None, None, 60] ])]
+
 def IP2(x):
     return( (x[0] >= 55947.691) and (x[3] >= 1145) and (x[4] <= 60) )
 
@@ -37,6 +43,9 @@ def OP2(x):
 
 
 # PROPERTY 3
+
+IP3_dom = [np.array( [ [1500.0, -0.06, 3.10, 980.0, 960.0],
+                       [1800.0,  0.06, None,  None,  None] ])]
 
 def IP3(x):
     return( (1500.0 <= x[0] <= 1800.0) and (-0.06 <= x[1] <= 0.06) and (3.10 <= x[2]) and (980.0 <= x[3]) and (960.0 <= x[4]) )
