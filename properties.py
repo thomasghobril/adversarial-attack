@@ -5,7 +5,7 @@ from math import pi
 # PROCEDURE : X_normalised = (X - X_mean)/X_range
 # X = [rho, theta, psi, v_own, v_int] (in that order)
 
-X_mean = np.array( [1.9791091*10e4, 0.0, 0.0, 650.0, 600.0] )
+X_mean = np.array( [1.9791091*1e4, 0.0, 0.0, 650.0, 600.0] )
 X_range = np.array( [60261.0, 6.28318530718, 6.28318530718, 1100.0, 1200.0] )
 
 X_dom = np.array([ [0.0,    -pi, -pi, 100.0,     0.0],
