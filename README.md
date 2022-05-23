@@ -11,8 +11,8 @@
 
 ## Authors : 
 > - Tom LABIAUSSE
-> - Thomas Ghobril
-> - Pierre Ollivier
+> - Thomas GHOBRIL
+> - Pierre OLLIVIER
 > - Vincent MICHELANGELI
 > - Shruti SUNDARANAND
 
