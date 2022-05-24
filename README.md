@@ -18,9 +18,10 @@
 
 
 ## Requirements :
+> - numpy : 1.19.5
 > - pandas : 1.0.5
 > - seaborn : 0.11.2
-> - numpy : 1.19.5
+> - sklearn : 0.23.1
 > - matplotlib : 3.2.2
 > - tensorflow : 2.4.1
 > - art : 1.9.1
