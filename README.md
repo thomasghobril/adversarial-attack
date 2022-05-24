@@ -11,19 +11,20 @@
 
 ## Authors : 
 > - Tom LABIAUSSE
-> - Thomas Ghobril
-> - Pierre Ollivier
+> - Thomas GHOBRIL
+> - Pierre OLLIVIER
 > - Vincent MICHELANGELI
 > - Shruti SUNDARANAND
 
 
 ## Requirements :
+> - numpy : 1.19.5
 > - pandas : 1.0.5
 > - seaborn : 0.11.2
-> - numpy : 1.19.5
+> - sklearn : 0.23.1
 > - matplotlib : 3.2.2
 > - tensorflow : 2.4.1
-> - art 1.9.1
+> - art : 1.9.1
 
 
 ## Jupyter notebooks :
@@ -37,7 +38,7 @@
 > **confusion_matrix_analysis.ipynb**
 > - Analyses the behaviour of the networks in each clusters by arbitrary choosing a neural net
 > in each cluster.
-> - Computes a confusion matrix for a given set of network, points and attack.
+> - Computes a confusion matrix for a given set of {network, points, attack}.
 > - Gives graphic tools to visualize the evolution of confusion matrixes when increasing the
 > intensity of a given attack on a network.
 > - Provides global trends concerning the switch of
