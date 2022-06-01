@@ -44,6 +44,11 @@
 > - Provides global trends concerning the switch of
 > predicted labels that can almost always be observed when attacking a network.
 
+> **Adversarial_points_deplacement_analysis.ipynb**
+> - Analyses the evolution of the points before and after the attacks.
+> - Gives graphical representations of how the coordinates change.
+> - Also allows to change the intensity of the attacks.
+
 
 
 
