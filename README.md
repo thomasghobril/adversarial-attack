@@ -44,11 +44,14 @@
 > - Provides global trends concerning the switch of
 > predicted labels that can almost always be observed when attacking a network.
 
-> **Adversarial_points_deplacement_analysis.ipynb**
+> **adv_pts_displacement_analysis.ipynb**
 > - Analyses the evolution of the points before and after the attacks.
 > - Gives graphical representations of how the coordinates change.
 > - Also allows to change the intensity of the attacks.
 
+> **robustness_metric_analysis.ipynb**
+> - Analyses the robustness of ACAS-Xu networks from a statistical point of view,
+> independently of the attacks, using linear optimization.
 
 
 
