@@ -14,7 +14,7 @@
 > - Thomas GHOBRIL
 > - Pierre OLLIVIER
 > - Vincent MICHELANGELI
-> - Shruti SUNDARANAND
+> - Shruthi SUNDARANAND
 
 
 ## Requirements :
