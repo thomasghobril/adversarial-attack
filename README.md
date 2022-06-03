@@ -25,6 +25,7 @@
 > - matplotlib : 3.2.2
 > - tensorflow : 2.4.1
 > - art : 1.9.1
+> - gurobipy : 9.5.0
 
 
 ## Jupyter notebooks :
